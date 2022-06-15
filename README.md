@@ -191,6 +191,23 @@ Enter the package name i.e. helloworld and press enter
 
 ## What is an Array
 
+``` 
+- 1. Assume you are in an airport flying to Seattle from Chicago
+- 2. There are multiple gates in the airport terminal
+- 3. Each gate is boarding passengers to different airplanes at the same time going to different cities
+- 4. Your boarding group is 2
+- 5. There is a single line for the boarding group 2
+- 6. There are 50 people standing in that single line for boarding group 2
+- 7. Question is how many lines did the airline crew create for boarding 50 passgengers in the place. 
+- 8. The answer is just 1
+- 9. How do know the 5th passenger in the boarding group line ? : By counting 1,2,3,4,5
+- 10. One key thing to note is that all the passgengers has a similarity that all their boarding group is 2!
+- 11. Likewise in Java programs when we se similar things we do not create separate lines (or boxes or variables) to store them
+- 12. Now, if we are print the seven days of the week we will create a single Java array and store them
+- 13. String[] sevenDays = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}
+- 14. So we see that arrays are indicated by a opening and closing sqare brackets
+- 15. If we do not give a number inside the square brackets, java will count the number of elements in that "," separate curly brace and determine the size 7 in this case
+```
 ## Sample Program
 
 ``` 
@@ -245,7 +262,7 @@ public class HelloWorld
 ##  What this java main method is doing
 
 ``` 
-- 1. In out cities hundreds of public properties such as roads amd parks and libraries are created by the authroities or the govrenment
+- 1. In our cities hundreds of public properties such as roads amd parks and libraries are created by the authroities or the govrenment
 - 2. In java thousands of methods that do special things for us are written by the Java Programming Language creators
 - 3. Like when we drive, we just press the gas pedal and the car moves with special engineering done by the car manufacturing company.
 - 4. Here we want to print "Hello World" on the screen and there is a special class and method for that purpose
@@ -280,6 +297,8 @@ public class HelloWorld
 ```
 
 ## How do we run the program
+
+## Right Click on the program you want to run and choose as shown below.
 
 ![Alt text](images/10.png?raw=true "Title")
 
