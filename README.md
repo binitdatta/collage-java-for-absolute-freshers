@@ -136,3 +136,159 @@ OpenJDK 64-Bit Server VM Zulu11.56+19-CA (build 11.0.15+10-LTS, mixed mode)
 ## Click on the Download button for the Community Edition
 
 ## Once the download is completed, double click the .dmg file to install the IntelliJ Idea IDE.
+
+## After the IDE is installed, it will be under your Mac's Application Folder
+
+![Alt text](images/3.png?raw=true "Title")
+
+## Double Click on the IntelliJ Idea icon to start the IDE
+
+## What is a Package in Java?
+
+``` 
+- 1. Java Packages are special type of folders that helpls us separate programs with the same names
+- 2. Say you and and your friend both write a program called HelloWorld.java
+- 3. We cannot keep the two programs with the same exact names under one one folder or package
+- 4. However, if we create a package/folder named charles and anpther named ashley, we can keep the same HelloWorld.java under two packages
+- 5. It will look like charles/HelloWorld.java and ashley/HelloWorld.java
+```
+
+## How do we create a new package in the IntelliJ IDE
+
+``` 
+- 1. The src folder is where all source code programs that contains our programs are kept
+- 2. Under the src folder we have the root package or folder named here as com/rollingstone or as we say in java com.rollingstone
+- 3. Special note: In the Operating System, folders are separated by front slash in linux/mac and \ in windows
+- 4. In java , folder or packafes are separated by . or DOTS
+- 5. Right click the com.rollingstone folder/package and follow the images shown below
+```
+
+![Alt text](images/4.png?raw=true "Title")
+
+![Alt text](images/5.png?raw=true "Title")
+
+![Alt text](images/6.png?raw=true "Title")
+
+Enter the package name i.e. helloworld and press enter
+
+![Alt text](images/7.png?raw=true "Title")
+
+## Results of package creation
+
+![Alt text](images/8.png?raw=true "Title")
+
+## How do I create a first Java Program in the IDE
+
+``` 
+- 1. Right click the new package
+- 2. Click New 
+- 3. Click Java Class as shown below
+- 4. Enter the Java Program Name as HelloWorld
+- 5. There will be a new Java program created under the package com.rollingstone.helloworld and a new editor will be opened
+```
+
+![Alt text](images/9.png?raw=true "Title")
+
+## What is an Array
+
+## Sample Program
+
+``` 
+package com.rollingstone.helloworld;
+
+public class HelloWorld
+{
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+```
+
+## The first line of the program HelloWorld.java says which folder/package it is in
+
+## In out cities , there are houses and there are parks and libraries
+
+## Houses are generally private properties whereas parks and libraries are public properties meaning anyone can use them
+
+## A public Java program is like a public park or public library meaning apart from the programmer, other people will be able use it as well
+
+## In English the words like "A", "An", "The" has some special meaning 
+
+## Common nouns like Train, Bus Airplane has special meanings too
+
+## In java programming language there are words with special meaning and these words are called key words or reserved words
+
+``` 
+- 1. package means the next words are going to tell the folder name of the program
+- 2. public means the program can be used by all
+- 3. In Java all program are called class but we will explain things about classes a little later
+- 4. After the class keyword there comes the name of the program which is here HelloWorld
+```
+
+## Methods
+
+``` 
+- 1 . Like any living beings have organs and non living beings have parts, Java programs have methods
+- 2.  Like humans have hearts, hands, legs, brain, eyes etc, cars have engines, planes have wings, Java programs have methods
+- 3. A human brain sends signals to other parts / components of the body such as hand / legs to move them.
+- 4. In a Java program, the main method is the brain of the java program that sends signals by calling other methods
+- 5. Organs have nerve cell connection to carry the message from the brain to them
+- 6. Java main method instead calls the method by their names
+- 7. Like the human brain acts on external stimulus, java main method also receives external stimulus called command line argumentds
+- 8. The command line argumentds are contained in an array called args
+- 9. Each array has a type associated with it.
+- 10. Here the array type is String which means these are words that can be alphabets followed by numbers and symbols etc.
+
+```
+
+##  What this java main method is doing
+
+``` 
+- 1. In out cities hundreds of public properties such as roads amd parks and libraries are created by the authroities or the govrenment
+- 2. In java thousands of methods that do special things for us are written by the Java Programming Language creators
+- 3. Like when we drive, we just press the gas pedal and the car moves with special engineering done by the car manufacturing company.
+- 4. Here we want to print "Hello World" on the screen and there is a special class and method for that purpose
+- 5. The special class is called System.out
+- 6. The special method that prints the message is called println
+- 7. Like shopowners take money from us before giving us the goods we buy, java methods some of them take input values
+- 8. These input values are called parameters or arguments
+- 9. The argument in this case is : "Hello World" and is a String enclosed within double quotes ""
+```
+
+## How does java programs start and end
+
+### Java programs start with an opening curly brace { and end with another closing curly brace }
+
+## How does java methods start and end
+
+### Java methods start with an opening curly brace { and end with another closing curly brace }
+
+## Now with all the explanation, lets see it again
+
+
+``` 
+package com.rollingstone.helloworld;
+
+public class HelloWorld
+{
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+```
+
+## How do we run the program
+
+![Alt text](images/10.png?raw=true "Title")
+
+![Alt text](images/11.png?raw=true "Title")
+
+## Exercise
+
+``` 
+- 1. Create a new package called hellojava under the com.rollingstone package
+- 2. Create a new Java program named HelloJava under the new package hellojava package
+- 3. Print the Message "Hello Java" in the java main method
+```
