@@ -189,6 +189,24 @@ Enter the package name i.e. helloworld and press enter
 
 ![Alt text](images/9.png?raw=true "Title")
 
+## What are variables
+
+``` 
+- 1. Assume we ask a kindergartener to add two numbers 10 and 12
+- 2. She will write both numbers down in her writing pad before adding them
+- 3. Computers are like kindergarteners.
+- 4. They store everything we tell them to
+- 5. The places they store these things are called variables
+- 6. These variables are like boxes in the Random Access Memory or RAM
+- 7. These boxes in the RAM has addresses and can be easily located for reading the content within these boxes
+- 8. In our households, we store different things in different types of containers
+- 9. We store milk in jars, vegetables in the vegetable box inside the refrigerator etc.
+- 10. Computers also have special boxes for storing special things.
+- 11. Like things are that whole numbers without a decimal part are called integers
+- 12. Thigns that have decimal parts are called floats
+- 13. Very long whole numbers are called long and very long decimal point numbers are called double
+- 14. Things that looks like words are called Strings while things that are Date and Time and stored in date and time type of boxes.
+```
 ## What is an Array
 
 ``` 
