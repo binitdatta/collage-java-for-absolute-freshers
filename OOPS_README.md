@@ -34,7 +34,7 @@
 
 # Object Oriented Programming, however has some attributes that needs explanation before we further.
 
-![Alt text](images/14.png?raw=true "Title")
+![Alt text](images/15.png?raw=true "Title")
 
 # What is Encapsulation
 
