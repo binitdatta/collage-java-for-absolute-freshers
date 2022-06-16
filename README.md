@@ -322,10 +322,19 @@ public class HelloWorld
 
 ![Alt text](images/11.png?raw=true "Title")
 
-## Exercise
+## Exercise 1
 
 ``` 
 - 1. Create a new package called hellojava under the com.rollingstone package
 - 2. Create a new Java program named HelloJava under the new package hellojava package
 - 3. Print the Message "Hello Java" in the java main method
+```
+
+## Exercise 2
+
+``` 
+- 1. Review the program SumOfTwoNumbers.java under package sum
+- 1. Create a new package called products under the com.rollingstone package
+- 2. Create a new Java program named ProductOfTwoNumbers under the new package products 
+- 3. Write a Java program that takes two numbers and display the product of two numbers
 ```
