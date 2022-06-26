@@ -174,6 +174,112 @@ public class Zebra extends extends FourLeggedAnimal {
 ```
 # What is Polymorphism
 
+![Alt text](images/17.png?raw=true "Title")
+
+``` 
+- 1. As stated earlier, the domain of Object Oriented Programming borrows heavily from real life in general
+- 2. any general intorduction of Object Oriented Programming would cover the term Polimorphism but without describing how it borrows from real life polymorphisim
+- 3. The importance establishing the link between real life polymorphism and Object Oriented polymorphism is that 
+- 4. Students who do not understand Object Oriented Polymorphism understand real life polymorphism very well
+- 5. Lets us explain
+- 6. In simple terms polymorphism explains how a generic behavior in a class i.e. Mammal exibit different behaviour in different members of that class.
+- 7. Say A Deer , a Rabbit, a Tiger and a Cheetah all  knows how to run
+- 8. So all of them share the running behaviour from their class Mammals
+- 9. But each one of them specializes this running (or eating) behaviour as they please. 
+- 10. Like they say A Cheetah runs for its food while a Deer runs for its life. 
+- 11. Now think about again programming a Jungle Game using C++ or Java or C# as a programming languages all supporting OOPs
+- 12. Your programming will reflect the behaviour and have a protected (method that can be overdidden by a subclass) in the super class Mammal
+- 13. Similar behaviour extends to eating, making sounds where eating and making sounds belongs to the class Mammal but variety of eating habbits, differences of 
+- 14. making sounds differentiates lower specifies such as Deer, Tiger, Cheetahs, Elephants and so on
+- 15. Now lets realize from early childhood we all understand how animals share generic behavior and th these generic behaviour i.e. eating/running
+- 16. becomes more distinguished in specific members of Mammals
+- 17. Once you understand this long standing example of polymorphism in our own very real life, computer science classes making it hard to understand
+- 18. How polymorphism works in programming goes away.
+- 19. All that is left to be understood is the syntax part which is easy,. The concept is already understood
+
+Like this
+
+public abstract class Mammal {
+
+    private Stirng name;
+    private int age;
+    private Eye[] eyes;
+    private Ears[] ears;
+    ....
+    
+    protected String run {
+        // TODO override in a subclass
+    }
+    
+    protected String eat { 
+    
+        // TODO override in a subclass
+    }
+    
+    protected String makeSound() {
+    
+        // TODO override in a subclass
+    }
+}
+
+public class Deer extends Mammal {
+
+        @Override
+        protected String getSound() {
+            return "bellow!";
+        }   
+        
+          @Override
+        protected String run() {
+            return "run for Life!";
+        }   
+        
+          @Override
+        protected String eat() {
+            return "Grass, Leaves!";
+        }   
+}
+
+public class Cheetah extends Mammal {
+
+        @Override
+        protected String getSound() {
+            return "Roar, Chirp!";
+        }   
+        
+          @Override
+        protected String run() {
+            return "run for Food!";
+        }   
+        
+          @Override
+        protected String eat() {
+            return "Hunted Deers!";
+        }   
+}
+```
+
+# What is  Dynamic Linking or Late Binding
+
+``` 
+- 1. Dynamic Linking is something that belongs exclusively to programming language runtimes.
+- 2. Say you are working as a Manager / Keeper in a Zoo garden
+- 3. When a Deer bellow or a Tiger Rors you do not tell yourself that a Mammam has made a sound but you understands what type of mammal has made the sound.
+- 4. In this case, please understand that we have written multiple computer files that contains the source code of the super class Mammal and the subclass Deer, Cheetah etc,
+- 5. The Zoo MAnager in this case is the Programming Language Compiler i.e. Java Compiler and the Programming Langgaue Runtime i.e. Java Runtime
+- 6. Say in our program we declare a variable
+Mammal Deer deer = new Deer();
+Mammal Cheetah cheetah = new Cheetah();
+
+- 7. This is a special privilege in OOPs, there super class variable types can be assigned subclass object types.
+- 8. Because ultimately in concept we know A Deer and a Cheetah indeed are Mammals
+- 9. But the compiler and runtime understand that specific behaviour such as eating, running, making sounds etc have been overdidden and redefined by the Deer and the Cheetah
+- 10. Thus, when the actual runtime see java statements like deer.run(); or cheetah.run(); it calls the overdidden methods of the class Deer and Cheetah respectively.
+- 11. This decision about what exact version / definition of the method to call is made later in runtime rather than early in compile time.
+- 12. Because this made decision is made dynamically , this process is called dynamic linking and also called late binding.
+- 13. Why binding: Becase the runtime binds the call later during the actual runtime to the actual method 
+```
+
 # What is a Class
 
 # What is an Object
