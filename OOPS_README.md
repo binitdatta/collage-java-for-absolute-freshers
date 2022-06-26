@@ -272,8 +272,8 @@ public class Cheetah extends Mammal {
 - 4. In this case, please understand that we have written multiple computer files that contains the source code of the super class Mammal and the subclass Deer, Cheetah etc,
 - 5. The Zoo MAnager in this case is the Programming Language Compiler i.e. Java Compiler and the Programming Langgaue Runtime i.e. Java Runtime
 - 6. Say in our program we declare a variable
-Mammal Deer deer = new Deer();
-Mammal Cheetah cheetah = new Cheetah();
+Mammal  deer = new Deer();
+Mammal  cheetah = new Cheetah();
 
 - 7. This is a special privilege in OOPs, there super class variable types can be assigned subclass object types.
 - 8. Because ultimately in concept we know A Deer and a Cheetah indeed are Mammals
