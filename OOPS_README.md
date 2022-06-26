@@ -178,10 +178,10 @@ public class Zebra extends extends FourLeggedAnimal {
 
 ``` 
 - 1. As stated earlier, the domain of Object Oriented Programming borrows heavily from real life in general
-- 2. any general intorduction of Object Oriented Programming would cover the term Polimorphism but without describing how it borrows from real life polymorphisim
+- 2. Any general intorduction of Object Oriented Programming would cover the term Polimorphism but without describing how it borrows from real life polymorphisim
 - 3. The importance establishing the link between real life polymorphism and Object Oriented polymorphism is that 
 - 4. Students who do not understand Object Oriented Polymorphism understand real life polymorphism very well
-- 5. Lets us explain
+- 5. Let us explain
 - 6. In simple terms polymorphism explains how a generic behavior in a class i.e. Mammal exibit different behaviour in different members of that class.
 - 7. Say A Deer , a Rabbit, a Tiger and a Cheetah all  knows how to run
 - 8. So all of them share the running behaviour from their class Mammals
@@ -191,7 +191,7 @@ public class Zebra extends extends FourLeggedAnimal {
 - 12. Your programming will reflect the behaviour and have a protected (method that can be overdidden by a subclass) in the super class Mammal
 - 13. Similar behaviour extends to eating, making sounds where eating and making sounds belongs to the class Mammal but variety of eating habbits, differences of 
 - 14. making sounds differentiates lower specifies such as Deer, Tiger, Cheetahs, Elephants and so on
-- 15. Now lets realize from early childhood we all understand how animals share generic behavior and th these generic behaviour i.e. eating/running
+- 15. Now lets realize from early childhood we all understand how animals share generic behavior and these generic behaviour i.e. eating/running
 - 16. becomes more distinguished in specific members of Mammals
 - 17. Once you understand this long standing example of polymorphism in our own very real life, computer science classes making it hard to understand
 - 18. How polymorphism works in programming goes away.
@@ -201,6 +201,10 @@ Like this
 
 public abstract class Mammal {
 
+    // The word abstract means we cannot make a new living instance of that class
+    // You can imagine our creator will not be able to create just a Mammal 
+    // He/She has to choose what type of Mammam he/she wanted to create
+    
     private Stirng name;
     private int age;
     private Eye[] eyes;
