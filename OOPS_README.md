@@ -286,6 +286,27 @@ Mammal  cheetah = new Cheetah();
 
 # What is a Class
 
+``` 
+- 1. One thing that I maintain is that the secret of understanding Information Technology Programming Languages / Frameworks is 
+- 2. Command over the English Language!
+- 3. Usually if we understand the true meaning of the "technical" word/jargon, we will easily understand the technology concept as well.
+- 4. Lets try with Class
+- 5. The first time I heard this word when I attended grade school for the first time
+- 6. People used to ask us what Class are you studying in and we answered Class 1/2/3/4/5 and so on
+- 7. Another thing that observed was that all students who were in the same class studied the same syllabus or have common study material.
+- 8. So we understood that members of a certain Class shares some commanality i.e. material to study
+- 9. Then we grew up and studied Classes and Species in Biology later
+- 10. We then scientifically understood that members of a certain biological class shares character / physical attributes
+- 11. Like all Mammals give births to their children, reptiles produce eggs, all herbs and trees produce oxygen etc.
+- 12. Thus, when a programming language such as Java extends this natural concept of a Class to programming, it means the same thing.
+- 13. If we create a Vehicle Class, members of the Vehicle class will share properties like 4 Tires, Two headlines, One Engines, and so on
+- 14. As Programming enters different domains from gaming, to eCommerce, to Administration to Banking and so on, the natural living and non-living objects are 
+- 15. Conceptualized as Classes and Objects in Java/C++/C#/GO/JavaScript etc.
+- 16. A related concept is called Analysis or System Analysis and Design.
+- 17. In System Analysis beforer writing programs or applications to solve a problem, we try to find what Classes represent that domain in real life
+- 18. Once we find those Classes i.e. Nouns usually we then identify them as Java/C++/Go/JavaScript Classes.
+```
+
 # What is an Object
 
 # What is Abstraction
