@@ -268,8 +268,8 @@ public class Cheetah extends Mammal {
 ``` 
 - 1. Dynamic Linking is something that belongs exclusively to programming language runtimes.
 - 2. Say you are working as a Manager / Keeper in a Zoo garden
-- 3. When a Deer bellow or a Tiger Rors you do not tell yourself that a Mammam has made a sound but you understands what type of mammal has made the sound.
-- 4. In this case, please understand that we have written multiple computer files that contains the source code of the super class Mammal and the subclass Deer, Cheetah etc,
+- 3. When a Deer bellow or a Tiger Rors you do not tell yourself that a Mammal has made a sound but you understands what type of mammal has made the sound.
+- 4. In this case, please understand that we have written multiple computer files that contains the source code of the super class Mammal.java and the subclass Deer.java, Cheetah.java etc,
 - 5. The Zoo MAnager in this case is the Programming Language Compiler i.e. Java Compiler and the Programming Langgaue Runtime i.e. Java Runtime
 - 6. Say in our program we declare a variable
 Mammal  deer = new Deer();
@@ -282,6 +282,9 @@ Mammal  cheetah = new Cheetah();
 - 11. This decision about what exact version / definition of the method to call is made later in runtime rather than early in compile time.
 - 12. Because this made decision is made dynamically , this process is called dynamic linking and also called late binding.
 - 13. Why binding: Becase the runtime binds the call later during the actual runtime to the actual method 
+- 14. In statement like Mammal deer = new Deer(), the Mammal is the Reference Type or you can Data Type but the Deer/Cheetah on the right side is the object type.
+- 15. The Java Runtime (or C++/C# Runtime) checks if the Object type has overridden certain behavior/method in its class Deer.java/Cheetah/java etc. If it has, then the Java runtime calls the method / behavior of the object type which is more specific, not the reference type which is on the left. 
+- 16. This determination is done later in the runtime and that is why it called Late Binding.
 ```
 
 # What is a Class
