@@ -312,6 +312,33 @@ Mammal  cheetah = new Cheetah();
 
 # What is an Object
 
+```
+- 1. When Apple makes its iPhones its give a strict direction to the factories that makes iPhones about how to make the iPhones.
+- 2. Where the components will fit in, the memory card, the SIM, the sound card, the microchips, the display all detailed specifcations are written in documents for training the factory workers who actually follow the documents to make the real iPhones.
+- 3. We can say that Apple enginners are actually writing the specification, the Class to make iPhones.
+- 4. When the factory workers follow the instructions to make the actual iPhones, they become real life Objects.
+- 5. Now replace the factory workers with the Java Runtime Virtual Machine.
+- 6. The Java Runtime VM reads the Class file like Mammal.java, Deer.java, Cheetah.java etc and loads them computer memory
+- 7. When its sees instructions like Mammal deer = new Deer(), it is actual preserving real computer memory space for storing the data , name, etc for that Deer. 
+- 8. When we create another Deer it the JVM reserves RAM for another Deer. Same for Cheetah.
+- 9. Thus, Object is when we follow the Class definition written in .java files and reserve RAM space for specific instances of those Classes, we create an Object.
+- 10. When the Cheetah hunts the Deer in real life, the Deer is no longer there.
+- 11. Similarly, when the Program does not need the RAM spaces for Deers, it reclaims those spaces as computer memory is limited and shared.
+- 12. This reclaiming of computer memory that was used for storing Objects, is called Garbaje Collection.
+```
+
 # What is Abstraction
+
+```
+- 1. The English meaning of the word Abstraction is providing simplified representation of a complex idea/object/process/concept etc.
+- 2. Lets take an example like driving a Car
+- 3. We drive a Car with its acclerator or has pedal, it break pedal and its sterring wheel.
+- 4. When we press the Gas Peadal, the Car increases its speed
+- 5. However, the Gas Pedal is connected to the Fuel supply which increases the suply of fuel to the engine which works harder to move the car wheel shaft more per minute, thereby moving the wheels more per minute, covering more distance in less time, thereby acclerarating the car.
+- 6. The actual automobile enginnering involve much more complexity. 
+- 7. Hovever to the drive the enginnering complexity is simplified or abstracted behind the Gas Pedal which the driver just press.
+- 8. In all of Programming, we are bilding this kinds of simplified interfaces between the rest of the system and its users.
+- 9. Because we are abstracting the complexity and its is one of the prime objective of programming , Abstraction is one of the four pillers of Object Oriented Programming.
+```
 
 # https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
