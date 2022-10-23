@@ -74,7 +74,7 @@ public class MyArrayList implements MyList {
 
 ![alt text](http:/images/Screen Shot 2022-10-23 at 11.16.23 AM.png)
 
-![Alt text](images/Screen Shot 2022-10-23 at 11.16.23 AM.png?raw=true "Title")
+![Alt text](./images/Screen Shot 2022-10-23 at 11.16.23 AM.png?raw=true "Title")
 
 
 ## What actions are we taking during the construction of the class object MyArrayList
