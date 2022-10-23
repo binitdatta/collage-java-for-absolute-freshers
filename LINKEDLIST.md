@@ -79,6 +79,20 @@
 
 ![Alt text](./images/27.png?raw=true "Title")
 
+```
+ - 1. We create a new Object to return to the caller
+ - 2. We also create an integer variable named i to keep track of the index position as we visit the linkedlist element by element
+ - 3. Visiting any list element by element is called traversing the list
+ - 4. We create a Node object and initialize it to the current head i.e. the address of the first element of the linkedlist
+ - 5. We start a do while loop . In a do while loop we at least iterate the steps once irrespective of any loop conditions
+ - 5. Inside the loop, we check / validate if index is valid and if the head which was assigned to the Node object is null and it either is true, we throw an exception.
+ - 6. We then check if the index received as parameter/argument is matching the current value of the loop variable which is i
+ - 7. if index matches i, we assign the current data value of the Node object i.e. last and break out of the loop
+ - 8. If the index value does not match current value of the i, then we realize we need to continue visiting next elements of the linkedlist
+ - 9. We do so by assigning the current node's next value which is the address of the next Node to last
+ - 10. while (true) is a bug
+ - 11. It should have been while (last.next != null)
+```
 
 ## How do we insert a new element at the middle of a LinkedList
 
