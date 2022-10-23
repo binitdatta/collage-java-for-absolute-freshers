@@ -52,12 +52,12 @@
 
 ![Alt text](./images/25.png?raw=true "Title")
 
+## How do we append a new element at the end of a LinkedList
 
-## How do we get an existing element from a LinkedList
 
 ![Alt text](./images/26.png?raw=true "Title")
 
-## How do we append a new element at the end of a LinkedList
+## How do we get an existing element from a LinkedList
 
 ![Alt text](./images/27.png?raw=true "Title")
 
