@@ -70,6 +70,10 @@ public class MyArrayList implements MyList {
     }
 ```
 
+## Visualize what happens when we create an Object of MyArrayList class
+
+![alt text](http:/images/Screen Shot 2022-10-23 at 11.16.23 AM.png)
+
 ## What actions are we taking during the construction of the class object MyArrayList
 
 ### We are initializing the member variables with their initial values
