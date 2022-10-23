@@ -72,9 +72,8 @@ public class MyArrayList implements MyList {
 
 ## Visualize what happens when we create an Object of MyArrayList class
 
-![alt text](http:/images/Screen Shot 2022-10-23 at 11.16.23 AM.png)
 
-![Alt text](./images/10.png?raw=true "Title")
+![Alt text](./images/18.png?raw=true "Title")
 
 
 ## What actions are we taking during the construction of the class object MyArrayList
