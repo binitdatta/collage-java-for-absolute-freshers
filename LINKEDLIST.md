@@ -17,6 +17,16 @@
 - 2. The next part that holds the memory address of the next Node in sequence
 ```
 
+## What is the Head / Start Address
+
+```
+  - 1. Say Miss Graf wants to find the phone number of Mr. David but she only knows Mr. David's Mom's phone phone number
+  - 2. So she first calls Mr. David's Mom
+  - 3. Asks for Mr. David's Phone Number from his Mom
+  - 4. Then calls Mr. David
+  - 5. Miss. Graph is here the Head or the Start Address because she is the one starting the search / traversal of the list
+  - 6. The two elements in this list are Mr. David's Mom (The first Element) and Mr. David the second and last element.
+```
 ## How does the Head / Start Look like
 
 ![Alt text](./images/20.png?raw=true "Title")
