@@ -144,6 +144,10 @@ public class MyArrayList implements MyList {
     }
 ```
 
+## Vissualize what happens when makeCapacity method is called
+
+![Alt text](./images/19.png?raw=true "Title")
+
 ## How are we inserting an element in the middle of the List/Array
 
 ### What do we need
