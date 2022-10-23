@@ -52,10 +52,28 @@
 
 ![Alt text](./images/25.png?raw=true "Title")
 
+```
+ - 1. We use the constructor method of the class named exactly the same as the class name itself to initialize its member variables
+ - 2. We set head to NULL as the new linked list does not point to anything real
+ - 3. And to reflect the reality we set the size of the linked list to zero.
+```
+
 ## How do we append a new element at the end of a LinkedList
 
 
 ![Alt text](./images/26.png?raw=true "Title")
+
+```
+ - 1. We receive an Object of type Node from our caller
+ - 2. We create a new object of type Node and assign the parameter we received to the new Node
+ - 3. We check if head is null and if that is the case, this new element is the first node of the linkedlist and we set head to the address of the new node
+ - 4. Remember saying  head = new_node; is telling java to set the address of the new_node not the content of the new_node to head
+ - 5. If head is not null that means the linkedlist already has some elements added to lit.
+ - 6. We traverse the existing list to reach the last element of the list
+ - 7. Till now before we appended the new element, last node pointed to NULL.
+ - 8. After the append, current last_node will now point to the new_node
+ - 9. The latest last node is the new_node
+```
 
 ## How do we get an existing element from a LinkedList
 
