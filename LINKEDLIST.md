@@ -33,8 +33,12 @@
 
 ## How does the Node looks Like
 
-![Alt text](./images/21.png?raw=true "Title")
+![Alt text](./images/23.png?raw=true "Title")
 
 ## How does the full linked list look like
 
 ![Alt text](./images/22.png?raw=true "Title")
+
+## How does the last Node looks Like (See the NULL in the next field
+
+![Alt text](./images/21.png?raw=true "Title")
