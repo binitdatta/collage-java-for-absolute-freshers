@@ -43,14 +43,16 @@
 
 ![Alt text](./images/21.png?raw=true "Title")
 
-## How do we construct a new object of a LinkedList
+## How does a Node Object look like
 
 ![Alt text](./images/24.png?raw=true "Title")
 
 
-## How do we append a new element at the end of a LinkedList
+## How do we construct a new object of a LinkedList
 
 ![Alt text](./images/25.png?raw=true "Title")
+
+## How do we append a new element at the end of a LinkedList
 
 ## How do we insert a new element at the middle of a LinkedList
 
