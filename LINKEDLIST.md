@@ -61,9 +61,6 @@
 
 ![Alt text](./images/27.png?raw=true "Title")
 
-## How do we insert a new element at the middle of a LinkedList
-
-![Alt text](./images/28.png?raw=true "Title")
 
 ## How do we insert a new element at the middle of a LinkedList
 
