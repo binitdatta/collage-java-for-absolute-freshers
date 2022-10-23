@@ -17,11 +17,11 @@
 - 2. The next part that holds the memory address of the next Node in sequence
 ```
 
-## How does the Node looks Like
+## How does the Head / Start Look like
 
 ![Alt text](./images/20.png?raw=true "Title")
 
-## How does the Head / Start Look like
+## How does the Node looks Like
 
 ![Alt text](./images/21.png?raw=true "Title")
 
