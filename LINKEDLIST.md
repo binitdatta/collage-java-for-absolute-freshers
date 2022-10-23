@@ -69,11 +69,11 @@
 
 ![Alt text](./images/29.png?raw=true "Title")
 
-## How do we insert a new element at the middle of a LinkedList
+## How do we remove an existing element from LinkedList
 
 ![Alt text](./images/30.png?raw=true "Title")
 
-## How do we insert a new element at the middle of a LinkedList
+## How do we print a LinkedList
 
 ![Alt text](./images/31.png?raw=true "Title")
 
