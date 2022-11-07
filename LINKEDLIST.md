@@ -98,11 +98,13 @@
 
 ![Alt text](./images/29.png?raw=true "Title")
 
+![Alt text](./images/36.png?raw=true "Title")
+
 ![Alt text](./images/34.png?raw=true "Title")
 
 ![Alt text](./images/35.png?raw=true "Title")
 
-![Alt text](./images/36.png?raw=true "Title")
+
 
 ## How do we remove an existing element from LinkedList
 
